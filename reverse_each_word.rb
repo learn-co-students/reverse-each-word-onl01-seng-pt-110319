@@ -1,4 +1,3 @@
-
 def reverse_each_word(string)
   array = string.split(" ")
   sentence1 = []
@@ -7,5 +6,4 @@ def reverse_each_word(string)
   end
   sentence1.join(" ")
 end
-
 reverse_each_word("Hello there, and how are you?")
